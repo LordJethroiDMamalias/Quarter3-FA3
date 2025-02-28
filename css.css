@@ -1,0 +1,80 @@
+body {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    background-size: 10%;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color:rgb(80, 133, 163);
+    border-radius: 20px;
+}
+
+h4 {
+    width: 45%;
+    margin-inline: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color:rgb(80, 126, 163);
+    border: solid rgb(32, 49, 87) 2px;
+    border-radius: 15px;
+}
+
+.box {
+    width: 60%;
+    height: 200px;
+    margin-block: auto;
+    margin-inline: auto;
+    text-align: center;
+    background-color:rgba(86, 138, 218, 0.85);
+    border: solid rgb(52, 137, 216) 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats {
+    margin-inline: auto;
+    text-align: center;
+    background-color:rgba(70, 98, 158, 0.85);
+    border: solid rgb(26, 33, 53) 2px;
+    border-radius: 15px;
+    width: 25%;
+    height: 90%;
+}
+
+input {
+    height: 40px;
+    width: 10%;
+    text-align: center;
+    margin-left: auto;
+    background-color: #ffe5d8;
+    border: solid black 2px;
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+button {
+    height: 40px;
+    width: 5%;
+    margin-left: auto;
+    transition: transform, 0.25s;
+    background-color: rgb(49, 30, 20);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+button:hover {
+    height: 50px;
+    width: 7%;
+}
+
+p {
+    color: rgb(76, 31, 180);
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
